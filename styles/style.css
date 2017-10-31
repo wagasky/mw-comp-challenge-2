@@ -251,10 +251,19 @@ h1 {
 
 /*media queries*/
 
-@media screen and (max-width: 1410px) {
+@media screen and (max-width: 3000px) {
+
+  .support-grid {
+   margin: 0px 200px;
+  }
+
+}
+
+@media screen and (max-width:  1700px) {
 
   .support-grid {
    grid-template-columns: 1fr 1fr 1fr;
+   margin: 0px;
   }
 
   header {
@@ -322,7 +331,7 @@ h1 {
 }
 
 #main-section-heading {
-  margin: 220px 0px 50px 10px;
+  margin: 250px 0px 50px 20px;
 }
 
 li {
